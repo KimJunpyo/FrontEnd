@@ -19,7 +19,9 @@
             <!-- 이자리는 select박스로 입력받으면 될것 -->
             <div class="ContentBox">알고리즘 스터디 (기초반)</div>
             <div class="ActivityHead">2022</div>
-            <div class="ContentBox">· 알고리즘 스터디 (코테반) · FLAG-게시판 (BE)</div>
+            <div class="ContentBox">
+              · 알고리즘 스터디 (코테반) · FLAG-게시판 (BE)
+            </div>
             <!-- 이부분은 나중에 사용자에게 입력받아 바인딩하는 부분으로 기능 구현하면서 개행처리로 하면 될듯합니다.  -->
           </div>
         </div>
@@ -148,7 +150,7 @@ a {
   height: 28vh;
   margin: 10px;
   display: flex;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 1);
 }
 .ActivityHead {
   width: 100%;
@@ -161,7 +163,8 @@ a {
   width: 100%;
   height: 40px;
   font-weight: 500;
-  background-color: #2c2c2c;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 1;
   color: white;
 }
 </style>
